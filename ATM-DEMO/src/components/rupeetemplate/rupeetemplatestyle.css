@@ -1,0 +1,24 @@
+.rupee-num{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    font-size:22px;
+    position: relative;
+    bottom:25px; 
+    margin:0px 10px;
+}
+.r-style{
+    position: relative;
+    opacity: 0.5;
+}
+
+.value-adjust{
+    left: 202px;
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+    bottom: 20px;
+    left:70px;
+}
+
+

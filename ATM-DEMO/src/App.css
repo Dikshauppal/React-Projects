@@ -1,0 +1,91 @@
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 30px;
+}
+.grid-item {
+  position: relative;
+  text-align: center;
+}
+
+.center-align-amount {
+  padding: 20px;
+  font-weight: 300;
+  font-family: "ubuntu";
+  font-size: 24px;
+}
+
+.center-align-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px groove rgb(88, 88, 207);
+  background-color: rgb(88, 88, 207);
+  color: white;
+  line-height: 17px;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.center-align-reset {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px groove rgb(88, 88, 207);
+  background-color: white;
+  color: rgb(88, 88, 207);
+  line-height: 17px;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.heading {
+  padding: 20px;
+  font-weight: 500;
+  font-family: "ubuntu";
+  font-size: 50px;
+  border-bottom: 1px inset grey;
+  color: rgb(88, 88, 207);
+}
+.atm-img {
+  position: relative;
+  top: 14px;
+  left: 35px;
+  opacity: 0.7;
+}
+
+.input-box {
+  border: 1px groove;
+  border-radius: 5px;
+  margin: 0px 10px;
+  height: 30px;
+}
+
+.mb-r {
+  margin-right: 30px;
+}
+
+.mandatory {
+  color: red;
+}
+
+.deno-button {
+  border-radius: 5px;
+  border: 1px groove grey;
+  background-color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+.deno-button-select {
+  border-radius: 5px;
+  border: 1px groove grey;
+  background-color: rgb(210, 210, 245);
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.disable-cursor {
+  cursor: not-allowed;
+}
